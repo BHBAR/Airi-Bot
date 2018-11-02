@@ -30,6 +30,9 @@ client.on('message', message => {
       else if (message.content === '!waifu') {
         message.channel.send('https://thumbs.gfycat.com/UnlawfulWarmheartedAruanas-size_restricted.gif'); 
       }
+      else if (message.content === '!plot') {
+        message.channel.send('https://i.kym-cdn.com/photos/images/original/000/553/358/6fc.gif'); 
+      }
     });
 
 // THIS MUST BE THIS WAY
